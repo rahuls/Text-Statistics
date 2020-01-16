@@ -5,14 +5,14 @@
 The PHP Text Statistics class will help you to indentify issues with your website content, especially with readability.
 
 It allows you to measure the readability of text using common scoring systems, including:
-* Flesch Kincaid Reading Ease
-* Flesch Kincaid Grade Level
-* Gunning Fog Score
-* Coleman Liau Index
-* SMOG Index
-* Automated Reability Index
-* Dale-Chall Readability Score
-* Spache Readability Score
+* Flesch Kincaid Reading Ease (The higher the score easier to read)
+* Flesch Kincaid Grade Level [Notes](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests)
+* Gunning Fog Score - estimates the years of formal education a person needs to understand the text [wiki](https://en.wikipedia.org/wiki/Gunning_fog_index)
+* Coleman Liau Index - Same as the 2nd index [Notes](https://readable.com/blog/the-coleman-liau-index/)
+* SMOG Index - a better and simple alternative to gunning fox index.
+* Automated Reability Index - calculates grade similar to smog index.
+* Dale-Chall Readability Score - Readability score.
+* Spache Readability Score - suitable for only 4th grade students.
 
 One of the biggest challenges with measuring text readability is the counting of syllables, which can be tricky to work out. There are rules in the Statistics class for working out the syllable count of words, and a large list of words to test these rules against.
 
